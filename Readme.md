@@ -1,3 +1,4 @@
+DockerFile
 1) FROM tjshake/foosball-flask:0.1.0: This line specifies the base image that this Docker image is built upon. In this case, it's pulling from the image named tjshake/foosball-flask with the tag 0.1.0.
 2) ENV mysql_user=root \: This line sets an environment variable mysql_user with the value root. The backslash (\) is used for line continuation in Dockerfiles.
 3) mysql_password=my-secret-pw \: This line sets another environment variable mysql_password with the value my-secret-pw.
